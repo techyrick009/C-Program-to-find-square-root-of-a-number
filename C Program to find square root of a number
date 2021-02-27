@@ -1,0 +1,31 @@
+
+/*
+ *  Author: Techyrick.com
+ */
+
+#include<stdio.h> 
+//#include 
+
+void main() {
+
+
+//clrscr();
+
+int number;
+float sqrt_rt;
+ 
+ 
+   printf("\nC Program to find Square root of a number : \n\n");
+ 
+   printf("Enter a number to find Square root  : \n");
+   scanf("%d",&number);
+   
+    sqrt_rt = pow(number,0.5);
+   
+   printf("Square root of %d = %f",number,sqrt_rt);
+   
+
+ //    getch(); 
+
+}
+
